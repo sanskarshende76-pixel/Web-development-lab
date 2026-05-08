@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+    <student>
+        <name>Parth Kulkarni</name>
+        <rollno>65</rollno>
+        <course>Computer Science</course>
+    </student>
+    <student>
+        <name>Amey Munse</name>
+        <rollno>61</rollno>
+        <course>Information Technology</course>
+    </student>
+    <student>
+        <name>Vivek Chougule</name>
+        <rollno>69</rollno>
+        <course>Electronics</course>
+    </student>
+</students>
