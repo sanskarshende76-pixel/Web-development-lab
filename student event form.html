@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Event Registration</title>
+
+<style>
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #333;
+}
+
+table{
+    background-color: lightblue;
+    width: 500px;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+input[type="text"]{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-top: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: darkgreen;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+h2, b{
+    color: #222;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center>
+<h1>Student Event Registration Form</h1>
+<br>
+
+<form>
+
+<table>
+<tr>
+<td>
+
+<center>
+
+<h2>Personal Details</h2>
+
+Full Name:<br>
+<input type="text" name="name"><br><br>
+
+Email:<br>
+<input type="text" name="email"><br><br>
+
+Contact Number:<br>
+<input type="text" name="mobile"><br><br>
+
+Gender:<br>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+
+<br><br><br>
+
+<b>Academic Details</b>
+<br><br>
+
+Institute Name:<br>
+<input type="text" name="institute"><br><br>
+
+Branch / Course:<br>
+<input type="text" name="branch"><br><br>
+
+Year of Study:<br>
+<input type="radio" name="year" value="FY"> FY
+<input type="radio" name="year" value="SY"> SY
+<input type="radio" name="year" value="TY"> TY
+<input type="radio" name="year" value="Final Year"> Final Year
+
+<br><br><br>
+
+<b>Event Selection</b>
+<br><br>
+
+Select Events:<br>
+<input type="checkbox" name="event1"> Hackathon<br>
+<input type="checkbox" name="event2"> Quiz Competition<br>
+<input type="checkbox" name="event3"> Cultural Dance<br>
+<input type="checkbox" name="event4"> Public Speaking
+
+<br><br><br>
+
+<input type="submit" value="Submit">
+<button type="reset">Reset</button>
+
+<br><br>
+
+</center>
+
+</td>
+</tr>
+</table>
+
+</form>
+
+</center>
+
+</body>
+</html>
